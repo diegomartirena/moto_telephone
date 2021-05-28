@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+.hero {
+  background-color: rgb(155, 209, 155);
+  width: 100%;
+  height: 500px;
+  background-image: url(http://placekitten.com/900/500);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.signUp,
+.unlimitedCats,
+.heroText {
+  position: absolute;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 20px;
+}
+.unlimitedCats {
+  bottom: 50px;
+  left: 0;
+  margin: 20px;
+}
+.heroText {
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heroText > * {
+  margin: 5px;
+}
+.bigRedButton {
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  box-shadow: 3px 3px black;
+  border-radius: 10px;
+  background-color: red;
+}
+.signUp {
+  top: 50px;
+  right: 0px;
+}
+
+.gallery {
+  /* background-color: lightblue; */
+  display: FLEX;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 240px;
+  background-color: white;
+  margin: 15px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  position: relative;
+  text-align: center;
+  margin: 30px 20px;
+}
+.card > * {
+  margin: 10px;
+}
+.cardImage {
+  width: 240px;
+}
+.greenNumber {
+  background-color: lightgreen;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -25px;
+  bottom: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seeMoreImages {
+  background-color: lightblue;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 10px;
+  border: none;
+  box-shadow: 3px 3px black;
+  border-radius: 10px;
+}
+.adoptThisCat {
+  position: absolute;
+  padding: 7px 40px;
+  top: 0;
+  left: 0;
+  border: none;
+  box-shadow: 3px 3px black;
+  border-radius: 10px;
+  background-color: red;
+  top: 100%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
